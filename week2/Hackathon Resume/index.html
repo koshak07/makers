@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!-- навбар,  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container d-flex ">
+            <a class="navbar-brand" href="#"><img width="100"
+                    src="./img/free-icon-signature-with-a-pen-1180.svg" alt="logo">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-2" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-5">
+                    <li class="nav-item">
+                        <a class="nav-link"aria-current="page" href="#about-1">About me</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <class class="nav-link" href="skills-1">Skills</class>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="contacts-1">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- конец навбар -->
+<!-- block hero -->
+    <div class="hero container fw-bold d-flex">
+        <div class="hero__name fs-1 col-3">Vladimir Nikitenko</div>
+        <div class="hero__proffesion col-6 mx-5">UX | UI designer 35 years old, Bishkek</div>
+    </div>
+    <div class="hero__photo container">
+        <img src="./img/Group 2.1.png" alt="hero">
+    </div>
+<!-- end hero -->
+<!-- блок about -->
+    <div class="about">
+        <div class="container">
+                <h1 id="about-1" class="about__h1">About me</h1>
+                <p class="about__p text-center fs-4">Hi, I'm Vladimir – UX/UI designer from Bishkek. I'm interested in design and everything connected with it. I'm studying at
+                courses "Web and mobile design interfaces" in IT-Academy. Ready to implement excellent projects with wonderful people.</p>
+        </div>
+            <div id="skills-1" class="skills ">
+                <h1>Skills</h1>
+                <p class="skills__dicription text-center fs-4">I work in such programs as</p>
+                <div class="skills__icons d-flex">
+                    <img src="./img/pfotoshop.png" alt="skill1">
+                    <img src="./img/ilustrator.png" alt="skill2">
+                    <img src="./img/afterefect.png" alt="skill3">
+                    <img src="./img/figma.png" alt="skill4">
+                </div>
+            </div>  
+        </div>
+        <!-- end about -->
+        <!-- block portfolio -->
+    <div class="portfolio ">
+        <div class="container flex-direction-column ">
+            <h1 id="portfolio" class="portfolio__h1 mb-15">Portfolio</h1>
+            <div class="portfolio__item-list">
+              <img src="./img/portfol1.png" alt="site1">
+            <p class="potfolio__discription fs-4"><a href="">Online fashion store - Homepage</a></p>  
+            </div>
+            <div class="portfolio__item-list">
+              <img src="./img/reebok_web.png" alt="reebok">
+            <p class="potfolio__discription fs-4"><a href="">Reebok Store - Concept</a></p>  
+            </div>
+            <div class="portfolio__item-list">
+               <img src="./img/photograf.png" alt="photograf">
+            <p class="potfolio__discription fs-4 "><a href="">Braun Landing Page - Concept</a></p> 
+            </div>
+        </div>
+    </div>
+    <!-- end portfolio -->
+    <!-- contacts -->
+    <div class="contacts d-flex flex-column">
+        <div>
+           <h1 id="contacts-1" class="contacts___h1 ">Contacts</h1> 
+        </div>
+        <div>
+          <p class="text-center fs-4">Want to know more or just chat? You are welcome!</p>  
+        </div>
+        <div class="d-flex justify-content-center">
+           <button type="button" class="btn btn-link contacts__btn "><a href="https://api.whatsapp.com/send?phone=996550648864" target="_blank" rel="123" >Send message</a> </button> 
+        </div>
+    </div>
+    <!-- end contacts -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer__icon-list d-flex justify-content-center m-5">
+            <div class="m-3">
+              <a href="https://www.instagram.com/"><img src="./img/inst.svg" alt=""></a>  
+            </div>
+            <div class="m-3">
+               <a href="https://www.linkedin.com/"><img src="./img/linkdin.svg" alt=""></a> 
+            </div class="m-3">
+            <div>
+              <a href="https://www.behance.net/"><img src="./img/Behance.svg" alt="behance"></a>  
+            </div>
+            <div class="m-3 w-49">
+              <a href="https://dribbble.com/"><img src="./img/Dribble.svg" alt="dribbble"></a>  
+            </div>
+        </div>
+        <div>
+            <p class="footer__description d-flex justify-content-center fs-4">Like me on LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </div>
+    <!-- end footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    
+</body>
+</html>

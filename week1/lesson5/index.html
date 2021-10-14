@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson5</title>
+</head>
+<style>
+    table {
+        border: 2px solid black;
+        text-align: left;
+    }
+
+    th,
+    td {
+        border: 1px solid lightgray;
+        padding: 5px;
+    }
+</style>
+
+<body>
+
+    <!-- блок -->
+    <!-- должен отвечать на вопрос что это -->
+    <!-- Это не состояние Какой, как выглядит  не эти вопросы -->
+
+    <!-- верно -->
+    <div class="warning"></div>
+    <!-- неверно -->
+    <div class="yelow-warning"></div>
+
+    <!-- блок в блоке -->
+    <div class="nav-left">
+        <div class="logo"></div>
+    </div>
+
+    <!-- элементы -->
+    <!-- должен отвечать на вопрос что это -->
+    <!-- Это не состояние Какой, как выглядит  не эти вопросы -->
+    <!-- название Имя элемента отделяется от имени блока двумя подчеркиваниями__ -->
+
+    <form class="search-form">
+        <input class="search-form__input" type="text">
+        <button class="search-form__btn"></button>
+    </form>
+
+    <!-- Элемент всегда часть блока, а не другого элемента -->
+
+    <form class="search-form">
+        <div class="search-form_content">
+            <!-- или так -->
+            <input class="srach-form__input" type="text">
+            <button class="search-form__btn"></button>
+            <!-- либо так -->
+            <input class="search-form__content-input" type="text">
+            <button class="search-form__content-btn"></button>
+        </div>
+    </form>
+
+    <!-- Элемент не обязательный компонет блока, не у всех блоков должны быть элементы -->
+    <!-- данный пример не верный - так нельзя подписывать инпут -->
+    <form class="search-form"></form>
+    <input class="search-form_input" type="text">
+
+
+    <!-- блок search-form -->
+    <form class="search-form" action="">
+        <!-- блок input -->
+        <input class="input" type="text">
+        <!-- блок button -->
+        <button class="button"></button>
+    </form>
+
+    <!-- Модификаторы -->
+    <!-- Должен отвечать на вопросы какой какие, это состояние -->
+    <!-- Имя модификатора оттделяется от имени блока или элемента одним подчеркиванием_ -->
+    <!-- Есть два типа модификаторов: булевый и ключ-значение -->
+
+    <!-- Булевый -->
+
+    <div class="make-order">
+        <button disabled class="make-order__btn make-order__btn_disabled">Сделать заказ</button>
+    </div>
+
+    <!-- Ключ значение -->
+
+    <div class="make-order">
+        <button class="make-order__btn make-order_color_red">Сделать заказ</button>
+    </div>
+    <!-- два модификатора сразу, можно использовать не противоположные значения -->
+    <div class="description">
+        <p class="description__pragraph description__pragraph_color_green description__pragraph_fsz_"></p>
+
+        <!-- нельзя использовать  два модификатора с одинаковыми значениями -->
+
+        <div class="description"></div>
+        <!-- неверно -->
+        <p
+            class="description__paragraph description_paragraph_fw_700 description__paragraph description_paragraph_fw_400 ">
+        </p>
+
+        <!-- input -->
+
+        <input type="text" placeholder="Enter name">
+        <input type="password">
+        <input type="tel" placeholder="enter phone number">
+        <input type="email">
+        <input type="number">
+        <input type="checkbox">
+        <input type="date">
+
+        <table>
+            <!-- заголовок -->
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>name</th>
+                    <th>price</th>
+                    <th>count</th>
+                </tr>
+            </thead>
+            <!-- тело таблицы -->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>ball</td>
+                    <td>300</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>ball-nike</td>
+                    <td>200</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>ball-dass</td>
+                    <td>370</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>#</td>
+                    <th>Total</th>
+                    <td>870</td>
+                    <td>38</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+
+</body>
+
+</html>

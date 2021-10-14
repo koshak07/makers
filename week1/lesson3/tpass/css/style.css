@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: #0F2336;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: 0F2336;
+}
+
+nav {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-inner {
+    width: 1240px;
+    height: 50px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-innerlist {
+    width: 410px;
+    display: flex;
+    justify-content: space-between;
+}

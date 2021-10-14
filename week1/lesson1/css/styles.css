@@ -1,0 +1,32 @@
+/* селекторы css */
+/* звездочка обратится ко всем элементам */
+*{
+    margin: 10px;
+    padding: 5px;
+}
+
+h1 {
+    color: chocolate;
+}
+
+h2 {
+    background: red;
+    color: white;
+}
+
+/* селектор для класса точка */
+.first-div {
+    font-size: 24px;
+}
+
+.second-div {
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px dotted gray;
+    /* border-style все стили */
+}
+
+#first-image {
+    width: 500px;
+    /* height: 500px; */
+}

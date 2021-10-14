@@ -1,0 +1,14 @@
+/* .block {
+    width: 500px;
+}
+
+.btn-fiolet {
+    background-color: blueviolet !important;
+} */
+.block {
+    height: 500px;
+}
+.blocks {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,153 @@
+/*inline меняет с строчного на блочный, inline-block блочый и строчный
+block*/
+
+/* 
+p {
+    background-color: red;
+    display: inline-block;
+    width: 300px;
+}
+
+span {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+} */
+
+/*Псевдо классы*/
+
+span:first-child {
+    color: blue;
+}
+
+span:last-child {
+    color: coral;
+}
+
+span:nth-child(2) {
+    color: cornflowerblue;
+}
+
+/*убрали фокус*/
+
+input:focus {
+    outline: none;
+}
+
+/*посещенные ссылки*/
+
+a:visited {
+    color: green;
+}
+
+/*анимация всплывания*/
+
+a {
+    transition: all 1s;
+}
+
+/*не посещенные ссылки*/
+
+a:link {
+    color: orange;
+}
+
+/*при наведение на ссылку*/
+
+a:hover {
+    background: brown;
+    font-size: 32px;
+}
+
+/*активные ссылки окрашивает при клике*/
+
+a:active {
+    color: black;
+}
+
+/*не работает с строчным тегом например с спаном работать не будет*/
+
+/*первая буква текста*/
+
+p::first-letter {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*первая строка текста*/
+
+p::first-line {
+    background: lightblue;
+    font-style: italic;
+}
+
+/* чтобы работать с плэйсхолдером */
+
+input::placeholder {
+    color: goldenrod;
+    font-size: 15px;
+}
+
+/* добавление контента перед и после элемента */
+
+#span1::before {
+    content: 'Apple ';
+}
+
+#span1::after {
+    content: ' M1';
+    font-weight: bold;
+}
+
+#p2::before {
+    content: 'comp ';
+}
+
+.main-block {
+    width: 100%;
+    background: lightblue;
+}
+
+/* top работает только с position и z-index
+плавающий навбар  position: sticky; установить навбар сверху с отступом от контента используем обращение к классу и устанавливаем паддинг*/
+
+.navbar {
+    width: 100%;
+    height: 40px;
+    background: darkblue;
+    position: fixed;
+    /* position: sticky; */
+    top: 0;
+    z-index: 2;
+}
+
+.first-div {
+    padding-top: 40px;
+}
+
+.content-block {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.fotter {
+    width: 100%;
+    height: 500px;
+    background: darkgreen;
+}
+
+/* управление элементом по экрану позишн абсолют должен быть установлен родителю, установка z-index прячет или показывает */
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    /* right: 0;
+    bottom: 0; */
+    /* left: 0;
+    top: 0; */
+    bottom: 10px;
+    left: 10px;
+}

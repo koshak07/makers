@@ -1,0 +1,63 @@
+aa:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+/* button:hover {
+    display: none;
+} */
+
+/* li:first-child {
+    background: pink;
+}
+
+li:last-child {
+    background: aquamarine;
+}
+
+li:nth-child(3) {
+    background: burlywood;
+} */
+
+ul {
+    list-style: none;
+}
+
+/*justify-content двигает по горизонтали*/
+
+.breadcrambs {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+/* добавляем слээш перед элементом, запись li+li означает игнорировать первый ли и тд*/
+
+.breadcrambs li+li::before {
+    content: '/';
+    padding: 0 7px;
+}
+
+.breadcrambs li::after {
+    content: '*';
+    padding: 0 7px;
+}
+
+button {
+    padding: 25px 35px;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer;
+    background-color: coral;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: cyan;
+}

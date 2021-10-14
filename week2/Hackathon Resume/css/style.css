@@ -1,0 +1,65 @@
+.about {
+    background-color: #e3e3e3;
+}
+
+.hero__proffesion {
+    width: 155px;
+}
+
+.about h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.about p {
+    text-overflow: initial;
+}
+
+.skills__icons {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.portfolio {
+    margin-bottom: 25px;
+}
+
+.portfolio__h1 {
+    text-align: center;
+    margin-top: 25px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.portfolio__item-list {
+    justify-content: center;
+}
+
+.potfolio__discription {
+    text-align: center;
+    align-items: center;
+}
+
+.contacts h1 {
+    text-align: center;
+    margin-top: 25px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer__icon-list {
+    align-items: center;
+    height: 49px;
+}
+
+.contacts__btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rgb(14, 14, 17);
+}
+
+.contacts__btn a {
+    color: rgb(212, 203, 203);
+    font-size: 18px;
+}
