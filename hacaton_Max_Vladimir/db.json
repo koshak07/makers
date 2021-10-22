@@ -1,0 +1,139 @@
+{
+  "students": [
+    {
+      "name": "Сергей",
+      "price": "39",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTM0btcHTjCCbPxV7R9uJA8skARbUaM1wLNOzSsYhtCTeH7olv6NC4xYRhARHUvHO6dWM&usqp=CAU",
+      "id": 2,
+      "phone": "996707582596",
+      "surname": "Сергеев",
+      "kpiWeek": "252",
+      "kpiMonth": "620"
+    },
+    {
+      "name": "Иван",
+      "price": "83",
+      "desc": "skdfaq[5",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8CGJu7yOPTZ5aWOVuh50f_FxOhDRmHVnjj4wA5T_tFvJaT6Q0iwxMXaNuwgtOrP7kHs&usqp=CAU",
+      "id": 3,
+      "surname": "Иванов",
+      "phone": "99655068247",
+      "kpiWeek": "25",
+      "kpiMonth": "185"
+    },
+    {
+      "name": "Она",
+      "price": "56",
+      "desc": "skdfaq[5asdfa",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaPVUNUfvylarXZNPE6SlpPWTDaSwocXniqu-lmohyjJmVdoPpOPREEf-fI8d3Vd9oi1s&usqp=CAU",
+      "id": 4,
+      "surname": "Онова",
+      "phone": "234252251532626",
+      "kpiWeek": "124",
+      "kpiMonth": "12415"
+    },
+    {
+      "name": "Максат",
+      "price": "70",
+      "desc": "skdfaq[5asdfaasdaa",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkmeBUHBscY33FnVLkkd1sMHoaOsdTimYMsZEczrtIMWKtOcf4KCKGPDi4vk7-HCMoI4o&usqp=CAU",
+      "id": 5,
+      "surname": "Максатов",
+      "phone": "1234554535",
+      "kpiWeek": "123",
+      "kpiMonth": "882"
+    },
+    {
+      "name": "Василий",
+      "price": "39",
+      "desc": "asdaq''[;,g,g",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMlHaMk01T6lg1tXmiG-BO5vW3pkxpt4eVvm-gTCVGHjdyvQ27kCyG0cj-eKHt3eVj9Es&usqp=CAU",
+      "id": 9,
+      "surname": "Васильев",
+      "phone": "9965122100",
+      "kpiWeek": "56",
+      "kpiMonth": "520"
+    },
+    {
+      "name": "Дмитрий",
+      "phone": "9963358335",
+      "desc": "faaa",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVCvn0hWx7z-l2gSRueQDNrKSjHLxBREL2eqyL14itUlVqNQQ_gfv5QEvxK-KG7e5elmo&usqp=CAU",
+      "id": 12,
+      "surname": "Дмитриев",
+      "kpiWeek": "79",
+      "kpiMonth": "120"
+    },
+    {
+      "name": "Владимир",
+      "surname": "Владимиров",
+      "phone": "545626",
+      "desc": "wrfraf",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJYnXTzu7nsrmzE16uC4aokr9rK4r_A1RrvmqpnE2iCYK7-wHqT9a3DztLhlBVDiPsQqw&usqp=CAU",
+      "id": 13,
+      "kpiWeek": "23",
+      "kpiMonth": "647"
+    },
+    {
+      "name": "Сергей",
+      "surname": "Васильев",
+      "phone": "966156665",
+      "kpiWeek": "52",
+      "kpiMonth": "351",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmSMMkJzDT-JHFQbBTJojTzf22FJjZfFfA4Wc284bAM_2OwcsevnbE7M1uEsnLvfSoC5I&usqp=CAU",
+      "id": 14
+    },
+    {
+      "name": "Виталий",
+      "surname": "Витальев",
+      "phone": "99466611",
+      "kpiWeek": "56",
+      "kpiMonth": "245",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJytVM8AHw8JQ0evLCtMFsK73oNJD1P0MjjK_FFDTSsglGTs_HoEI71b_IEgQgiOSNAY&usqp=CAU",
+      "id": 15
+    },
+    {
+      "name": "Ольга",
+      "surname": "Витальева",
+      "phone": "6556333214",
+      "kpiWeek": "58",
+      "kpiMonth": "450",
+      "desc": "",
+      "image": "https://thumb.tildacdn.com/tild6630-6433-4437-a336-626635663464/-/resize/382x/-/format/webp/12.jpg",
+      "id": 16
+    },
+    {
+      "name": "Роза",
+      "surname": "Арымбаева",
+      "phone": "9941656311",
+      "kpiWeek": "85",
+      "kpiMonth": "560",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUzRJqBzeV7SXwFVVbh1qZuRt207iapbf1d5jkSHOSzw395oG1KUqcBl6QuUtXfOQbPC8&usqp=CAU",
+      "id": 17
+    },
+    {
+      "name": "Аделина",
+      "surname": "Моделина",
+      "phone": "588945163",
+      "kpiWeek": "85",
+      "kpiMonth": "133",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGz_kBoyyfz13TIm1eRxaAB4UccaBvDsOrakC-j1jt3EJq9YpQkGnmIl036_1lHRk8DZY&usqp=CAU",
+      "id": 18
+    },
+    {
+      "name": "Даяна",
+      "surname": "Дианова",
+      "phone": "456989846541",
+      "kpiWeek": "23",
+      "kpiMonth": "213",
+      "desc": "афыафпфпфрарыпфафалрвылопрфвлофроалфрымлоыврпфло",
+      "image": "https://pechater.ru/wp-content/uploads/2019/08/foto-ot-pechaterfoto-foto-s-retushyu.jpg",
+      "id": 19
+    }
+  ]
+}
