@@ -1,0 +1,28 @@
+{
+  "countries": [
+    {
+      "name": "Russia",
+      "capital": "Moscow",
+      "population": 0,
+      "id": 1
+    },
+    {
+      "name": "Russia",
+      "capital": "Moscow",
+      "population": "130000000",
+      "id": 2
+    },
+    {
+      "name": "aljir",
+      "capital": "cap",
+      "population": "20000000",
+      "id": 3
+    },
+    {
+      "name": "kdqkfrq",
+      "capital": "jqwprjqp",
+      "population": "746646",
+      "id": 4
+    }
+  ]
+}

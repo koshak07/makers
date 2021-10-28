@@ -1,0 +1,10 @@
+.sidebar{
+    width: 200px;
+    height: 600px;
+    background-color: burlywood;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
